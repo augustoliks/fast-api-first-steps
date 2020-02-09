@@ -1,6 +1,6 @@
 - Instalação de Dependências
 ```shell script
-virtualenv --python=$(which python3.7) .venv
+pip3.7 install -r requirements.txt
 ```
 
 - Execução do Projeto
