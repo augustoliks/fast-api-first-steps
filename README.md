@@ -1,12 +1,9 @@
 # fast-api-first-steps
 
-Desbravando o excelente Framework Web para Python, chamado FastAPI.
+Repositório criado para exercitar e explorar as funcionalidades Framework Web __FastAPI__.
 
 
-# Executar exemplos
+# Capítulos
 
-```
-cd src
-pip3.7 install -r requirements.txt
-uvicorn main:app --reload
-```
+- [01 - Exemplo Simples](rotas_arquivo_unico) 
+- [02 - Multiplas Rotas em Arquivos Distribuidos utilizando __Clousers__](rotas_em_multiplos_arquivos)

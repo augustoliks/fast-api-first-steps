@@ -3,8 +3,12 @@ from pydantic import BaseModel
 from typing import List
 
 
+app = FastAPI()
+
+
 class City(BaseModel):
-    street: str = 'rua ramalhate'
+    street: str = 'Rua Ramalhete'
+
 
 class People(BaseModel):
     name: str
@@ -12,7 +16,6 @@ class People(BaseModel):
     is_offer: bool = None
     address: List[City]
 
-app = FastAPI()
 
 @app.get('/')
 def root():
